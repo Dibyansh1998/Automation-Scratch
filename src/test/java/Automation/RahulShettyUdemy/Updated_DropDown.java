@@ -11,7 +11,15 @@ public class Updated_DropDown {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.spicejet.com/");
+		
+		//Select the Kanpur to Delhi from the Drop Down
+		
+				driver.findElement(By.xpath("(//div[@class='css-1dbjc4n r-14lw9ot r-11u4nky r-z2wwpe r-1phboty r-rs99b7 r-1loqt21 r-13awgt0 r-ymttw5 r-tju18j r-5njf8e r-1otgn73'])[1]")).sendKeys("KANP");
 
+
+				Thread.sleep(2000);
+//				driver.findElement(By.cssSelector("[data-testid='to-testID-destination']")).click();
+				driver.findElement(By.xpath("//input[@value='Delhi (DEL)']")).click();
 		// First Click on the Passengers Drop Down
 		driver.findElement(By.xpath("//div[@data-testid='home-page-travellers']")).click();
 
@@ -35,7 +43,6 @@ public class Updated_DropDown {
 		
 		driver.findElement(By.xpath("(//div[@class='css-1dbjc4n r-18u37iz'])[35]")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//div[@class='css-1dbjc4n r-1awozwy r-1loqt21 r-18u37iz r-1wtj0ep r-b5h31w r-rnv2vh r-5njf8e r-1otgn73'])[40]")).click();
 		
 		driver.close();
 
