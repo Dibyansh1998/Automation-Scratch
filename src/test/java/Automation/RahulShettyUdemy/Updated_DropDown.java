@@ -46,6 +46,13 @@ public class Updated_DropDown {
 		driver.findElement(By.xpath(
 				"(//div[@class='css-1dbjc4n r-18u37iz']/div[@class='css-76zvg2 r-cqee49 r-ubezar r-1kfrs79'])[37]"))
 				.click();
+		Thread.sleep(1000);
+		driver.findElement(By.cssSelector(".css-1dbjc4n.r-1awozwy.r-19m6qjp.r-156aje7.r-y47klf.r-1phboty.r-1d6rzhh.r-1pi2tsx.r-1777fci.r-13qz1uu")).click();
+		
+		//Click on Radio Button
+		driver.findElement(By.xpath("(//div[@class='css-1dbjc4n r-zso239'])[2]")).click();
+		System.out.println(driver.findElement(By.cssSelector("div[data-testid='return-date-dropdown-label-test-id']")).isEnabled());
+		
 		Thread.sleep(4000);
 		driver.close();
 
