@@ -92,5 +92,10 @@
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/lib/opentelemetry-sdk-metrics-1.36.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/lib/opentelemetry-sdk-trace-1.36.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/lib/opentelemetry-semconv-1.23.1-alpha.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
