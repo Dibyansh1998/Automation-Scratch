@@ -31,7 +31,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-22/lib/jrt-fs.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/selenium-api-4.19.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/selenium-api-4.19.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/selenium-chrome-driver-4.19.1.jar"/>
@@ -92,10 +91,12 @@
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/lib/opentelemetry-sdk-metrics-1.36.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/lib/opentelemetry-sdk-trace-1.36.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/selenium-java-4.19.1/lib/opentelemetry-semconv-1.23.1-alpha.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-21">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/jrt-fs.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
