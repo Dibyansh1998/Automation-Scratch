@@ -21,14 +21,17 @@ public class FluentWaitTest {
 		
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 		driver.findElement(By.cssSelector("[id='start'] button")).click();
 		
 		//Fluent Wait Command
-		Wait<WebDriver> w1=new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30)).pollingEvery(Duration.ofSeconds(3))
+		Wait<WebDriver> w1=new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30)).
+				pollingEvery(Duration.ofSeconds(3))
 				.ignoring(NoSuchElementException.class);
 		
-		WebElement wait=w1.until(new Function<WebDriver, WebElement>(){
+		WebElement wait=w1.until(new Function<WebDriver, WebElement>()
+		{
 		public WebElement  apply(WebDriver driver)
 		{
 			if(driver.findElement(By.cssSelector("[id='finish'] h4")).isDisplayed())
