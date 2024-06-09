@@ -98,5 +98,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dibya/Downloads/testng-7.10.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

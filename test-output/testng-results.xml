@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T18:39:32 IST" name="Default suite" finished-at="2024-05-01T18:39:32 IST" duration-ms="70">
+  <suite started-at="2024-06-09T09:47:46 IST" name="Default suite" finished-at="2024-06-09T09:47:52 IST" duration-ms="6048">
     <groups>
     </groups>
-    <test started-at="2024-05-01T18:39:32 IST" name="Default test" finished-at="2024-05-01T18:39:32 IST" duration-ms="70">
-      <class name="Automation.RahulShettyUdemy.Demo">
-        <test-method signature="Demo1()[pri:0, instance:Automation.RahulShettyUdemy.Demo@79079097]" started-at="2024-05-01T18:39:32 IST" name="Demo1" finished-at="2024-05-01T18:39:32 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-06-09T09:47:46 IST" name="Default test" finished-at="2024-06-09T09:47:52 IST" duration-ms="6048">
+      <class name="Automation.RahulShettyUdemy.DataProviderDemo">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Automation.RahulShettyUdemy.DataProviderDemo@6f03482]" started-at="2024-06-09T09:47:46 IST" name="test" data-provider="create" finished-at="2024-06-09T09:47:48 IST" duration-ms="1972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo1 -->
-      </class> <!-- Automation.RahulShettyUdemy.Demo -->
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Automation.RahulShettyUdemy.DataProviderDemo@6f03482]" started-at="2024-06-09T09:47:48 IST" name="test" data-provider="create" finished-at="2024-06-09T09:47:49 IST" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Automation.RahulShettyUdemy.DataProviderDemo@6f03482]" started-at="2024-06-09T09:47:49 IST" name="test" data-provider="create" finished-at="2024-06-09T09:47:50 IST" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Automation.RahulShettyUdemy.DataProviderDemo@6f03482]" started-at="2024-06-09T09:47:50 IST" name="test" data-provider="create" finished-at="2024-06-09T09:47:52 IST" duration-ms="1399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Automation.RahulShettyUdemy.DataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
