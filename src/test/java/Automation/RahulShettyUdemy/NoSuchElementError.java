@@ -15,7 +15,8 @@ public class NoSuchElementError {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/login.php/");
 		
-		//No Such Element error will occur whether the Locator is wrong or There is some wait to visibility of element located.
+		//No Such Element error will occur whether the Locator is wrong or There is some wait to visibility 
+		//of element located.
 		driver.findElement(By.linkText("Sign up for Facebook")).click();
 		
 		Thread.sleep(2000);
