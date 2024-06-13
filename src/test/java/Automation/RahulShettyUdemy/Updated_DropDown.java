@@ -24,9 +24,8 @@ public class Updated_DropDown {
 		 * )).click();//it will click the (+)icon 4 times i++; }
 		 */
 		for (int i = 0; i < 3; i++) {
-			driver.findElement(By.xpath("(//div[@data-testid='Adult-testID-plus-one-cta'])[1]")).click();// it will
-																											// click the
-			// (+)icon 4 times
+			driver.findElement(By.xpath("(//div[@data-testid='Adult-testID-plus-one-cta'])[1]")).click();
+			// it will click the (+)icon 4 times
 		}
 		Thread.sleep(2000);
 		// Click on the Done button on passengers Drop Down
