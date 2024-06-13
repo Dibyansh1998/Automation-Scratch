@@ -22,13 +22,17 @@ public class ActionsClassDemo {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.myntra.com/");
 		
+		//Hover the mouse on Profile Section
 		WebElement move=driver.findElement(By.cssSelector(".desktop-user"));
 		Actions a= new Actions(driver);
 		a.moveToElement(move).build().perform();
 		
+		//Active the Search box and Shift the key and write Jeans
 		a.moveToElement(driver.findElement(By.cssSelector("[class='desktop-query'] input"))).click()
-		.keyDown(Keys.SHIFT).sendKeys("kurtapayjama").doubleClick().contextClick() //Context Click means right click
+		.keyDown(Keys.SHIFT).sendKeys("jeans").doubleClick().contextClick() //Context Click means right click
 		.build().perform();
+		
+//		driver.quit();
 
 	}
 

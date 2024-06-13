@@ -6,10 +6,10 @@ public class Methods_Demo_2 {
 		
 	}
 	
-	public String getUserData()
+	public String getUserData(String name3)
 	{
-		System.out.println("Ayushi Verma");
-		return "Bhumika verma";
+		System.out.println(name3);
+		return name3;
 	}
 
 }

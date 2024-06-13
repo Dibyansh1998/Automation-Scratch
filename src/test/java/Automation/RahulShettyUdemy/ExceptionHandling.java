@@ -32,7 +32,7 @@ public class ExceptionHandling {
 		driver.navigate().back();
 		
 		//If we missed the below step then it will give you the Stale Element Exception
-		//To avoid the exception then re-initialized it the element
+		//To avoid the exception then re-initialized it the element which we want to clear it.
 		ele= driver.findElement(By.cssSelector("div[class='widget-content'] textarea[id='ta1']"));
 		ele.clear();
 	}

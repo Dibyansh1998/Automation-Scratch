@@ -24,7 +24,8 @@ public class LinkCount {
 
 		System.out.println(driver.findElements(By.tagName("a")).size());
 
-		WebElement footerdriver = driver.findElement(By.id("gf-BIG"));// Limiting webdriver scope
+		WebElement footerdriver = driver.findElement(By.id("gf-BIG"));
+		// Limiting web driver scope
 
 		System.out.println(footerdriver.findElements(By.tagName("a")).size());
 
