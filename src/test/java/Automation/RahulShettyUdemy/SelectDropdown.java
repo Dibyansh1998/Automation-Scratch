@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SelevtDropdown {
+public class SelectDropdown {
 
 	public static void main(String[] args) {
 	

@@ -12,8 +12,8 @@ public class HeadlessBrowser {
 		//But in console you will see the output.
 		ChromeOptions option= new ChromeOptions();// This Class will execute the Headless Mode
 		option.addArguments("--headless");// Need to parse this argument
-//		WebDriverManager.chromedriver().setup();
 		
+//		WebDriverManager.chromedriver().setup();		
 		WebDriver driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		
